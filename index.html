@@ -15,9 +15,15 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/bootstrap.css" rel="stylesheet" />
        <link href="css/index.css" rel="stylesheet" /> 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+    
+     
     </head>
     <body id="page-top">
         <!-- Navigation-->
+
+
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Olivier Vroom</span>
@@ -25,24 +31,59 @@
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
             </a>
  
-<!--             <a href="index_english.html" id="english_link">English version</a>-->
+
+
        
     
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Over mij</a></li>
+
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Ervaring</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Opleiding</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Vaardigheden</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interesses</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certificaten</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cv">Mijn cv</a></li>
-                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./blog_english.html">Mijn blog!</a></li>
+                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./blog.html">Mijn blog!</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Page Content-->
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+              
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                       
+                        
+                       <!--  <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> English</a> -->
+                           <!--  <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span>  French</a>
+                                <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-es"> </span>  Spanish</a>
+                            </div> -->
+
+<li class="nav-item">
+                            <a class="nav-link" href="index_english.html"><span class="flag-icon flag-icon-us"> </span> English</a> 
+                           <!--  <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span>  French</a>
+                                <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-es"> </span>  Spanish</a>
+                            </div> -->
+
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </div>
+
+
         <div class="container-fluid p-0">
             <!-- About-->
             <section class="resume-section" id="about">
@@ -52,8 +93,13 @@
                         <span class="text-primary">Vroom</span>
                     </h1>
                <br>
+               <i class="flag flag-united-kingdom"></i>
+   <span id=".flag-icon-af"></span>
+   <i class="flag flag-china"></i>
                     <p class="lead mb-1">Welkom op mijn website! <br>
                         <br>
+
+
 Ik heb een passie voor het ontwerpen, bouwen en implementatie van digitale oplossingen. Ik doe dit in mijn eentje, en ook samen met teams. Ik werk onder andere via PHP, SQL, Bootstrap, en Git, in een agile manier. Ik ben in augustus 2021 afgestudeerd aan de Erasmus Universiteit in Rotterdam met een major in economie en een minor in ondernemerschap. Zin om te praten en van gedachten te wisselen? Stuur me een bericht via <a href="https://www.linkedin.com/in/oliviervroom/">LinkedIn!
 </a>
    
@@ -204,7 +250,7 @@ Ik heb mijn scriptie geschreven over de marktstructuur van "Q.R. code" apps op t
                     <div class="subheading mb-3">Programmeer talen en hulpmiddelen </div>
                     <br>
                     <p>
-                        HTML, CSS, JavaScript, SQL, PHP, Python, cPanel, en Git.
+                        HTML, CSS, JavaScript, Bootstrap, SQL, PHP, Python, cPanel, en Git.
                     </p>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
@@ -247,23 +293,43 @@ Ik heb mijn scriptie geschreven over de marktstructuur van "Q.R. code" apps op t
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <h2 class="mb-5">Prestaties en certificaten</h2>
                     <ul class="fa-ul mb-0">
                          <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Made it into final rounds of start-up competition
-                            - Entrepreneurship minor at University of Amsterdam 
+                            Finale ronde behaald van in totaal 21 startup pitches bij mijn minor
+ondernemerschap <br>aan de Universiteit van Amsterdam, 2021
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            SQL - Codecademy
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            HTML & CSS - CEPI-BASE
+                            SQL - Codecademy, 2021
                         </li>
                        
-                     
+                        
+                      <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                           Toegelaten tot TSEP, The Talented Student Entrepreneur Programme" van
+de Erasmus universiteit, 2020
+                        </li>
+
+
+ <li>
+ <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+ Ontvanger van het IB Learner "Inquirer" certificaat, 2017
+</li>
+                    
+
+<li>
+  <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+Lid van de "National Honor Society", 2016-2017 
+ </li>
+
+
+     <li>
+<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+  HTML & CSS - CEPI-BASE, 2014
+  </li>
+
                     </ul>
                 </div>
 
@@ -275,6 +341,24 @@ Ik heb mijn scriptie geschreven over de marktstructuur van "Q.R. code" apps op t
                         <h2 class="mb-5">CV</h2>
 <a href="assets/cv_nederlands.pdf" download>Klik om mijn cv te openen</a>
         </div>
+
+</section>
+
+    <hr class="m-0" />
+             <!-- blog -->
+    
+ <section class="resume-section" id="blog">
+                    <div class="resume-section">
+                        <h2 class="mb-5">Blog</h2>
+<a href="./blog.html">Mijn blog!</a>
+<p>
+    
+
+   Ik schrijf wekelijks in mijn blog over boeken, podcasts en willekeurige thema's die ik interessant vind!
+</p>
+        </div>
+
+
         <!-- Bootstrap core JS-->
      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
